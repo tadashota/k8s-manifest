@@ -7,7 +7,7 @@ pipeline {
   }
 
   stages {
-    stage('test') {
+    stage('deploy') {
       steps {
         sh '''
         oc apply -f nginx-deployment.yaml'''
