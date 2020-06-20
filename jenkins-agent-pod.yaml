@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 spec:
-  serviceAccountName: jenkins
+  serviceAccountName: manifest-deploy-job
   containers:
     - name: jnlp
       image: quay.io/openshift/origin-jenkins-agent-base:4.5
