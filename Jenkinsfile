@@ -9,10 +9,8 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        sh '''id
-        pwd
-        ls
-        oc whoami'''
+        sh '''
+        oc apply -f nginx-deployment.yaml'''
       }
     }
   }
