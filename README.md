@@ -4,7 +4,7 @@ Jenkinsのジョブを利用してリポジトリ内のマニフェストをOpen
 
 ![overview](manifest-deploy-overview.png)
 
-#### 環境
+### 環境
 
 - OpenShift CodeReady Containers
 
@@ -18,7 +18,7 @@ Jenkinsのジョブを利用してリポジトリ内のマニフェストをOpen
 
   
 
-#### manifest deploy overview
+### manifest deploy overview
 
 1. ローカルリポジトリでk8sマニフェストをcommitし、GitHubのmasterブランチへpushする
 2. GitHubのmasterブランチ上のk8sマニフェストが更新され、Jenkins側から当該リポジトリへのSCMポーリングにより更新を検知する
